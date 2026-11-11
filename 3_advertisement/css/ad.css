@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'SourceBlack';
+	src: url(../fonts/SourceCodePro-Black.otf);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.title {
+	font-family: 'SourceBlack';
+	font-size: 1.4em;
+	color: red;
+	position: relative;
+	letter-spacing: 0.3px;
+	left: 100px;
+	top: 20px;
+}
+
+.name {
+	font-family: 'SourceBlack';
+	font-size: 1.7em;
+	color: red;
+	position: relative;
+	letter-spacing: 0.3px;
+	left: 50px;
+	top: 50px;
+}
+
+.link{
+	font-family: 'SourceBlack';
+	font-size: 20px;
+	text-align: center;
+	color: red;
+	letter-spacing: 0.1px;
+	border: solid 2px red;
+	width: 320px;
+	line-height: 24px;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	transition: 0.4s;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+.link:hover{
+	color: white;
+	background: red;
+	transition: 0.4s;
+}
+
+.buy {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	float: left;
+	transform: rotate(-15deg);
+	left: 500px;
+	top: 10px;
+}
+
+.dog {
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	right: -100px;
+	top: -10px;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	position: relative;
+	overflow: hidden;
+}
+
